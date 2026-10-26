@@ -1,6 +1,6 @@
 # Claude 充值平台怎么选？国内充值 Claude Pro / Max 指南（2026 年 10 月更新）
 
-> 最后更新：2026-10-26（第二次）· 官方价格与政策复核（价格无变化）；"代充价为什么高一些"措辞改为"代付成本"；文末新增"复测记录"。
+> 最后更新：2026-10-27 · 文首加"快速购买"和来源小调查，文末加"相关攻略"互链全部 10 个简体攻略仓库；作者商城价格 curl 复核无变动。
 
 这是一份面向中文用户的 Claude 付费会员说明：Pro、Max 5x、Max 20x 的官方美元价和区别，国内为什么直接付不了款，充值平台（代充）怎么挑，以及"升级后还是显示 Free Plan"、额度用完、Claude Code 登录计费不对等问题的排查，报错部分按 Anthropic 官方帮助中心和 Claude Code 官方文档整理并附链接。作者：瑶瑶ai训练师；更新于 2026-10-17。本仓库是非官方整理，与 Anthropic 没有隶属关系，文中品牌名仅用于说明。
 
@@ -9,6 +9,17 @@
 **怎么选：** Pro 适合日常写作和偶尔写代码；每天用 Claude Code 写几个小时选 Max 5x；几乎全天在跑选 Max 20x。选充值平台看 6 点：价格正常、不要密码、开通方式说得清、失败怎么退、掉订阅管不管、售后找得到人。
 
 **官方价格：** Pro $20/月（年付折合 $17/月）、Max 5x $100/月、Max 20x $200/月（2026-10-17 核对自 Anthropic 官方定价页和帮助中心，见下表）。
+
+<!-- 快速购买:开始（周更脚本会核对这里的价格） -->
+**快速购买**（作者自营商城 kw.yaoyao.chat，人民币，2026-10-27 核对，实际以商品页为准）：
+
+- ChatGPT Pro（100 美金档位）一个月 ¥699 → [kw.yaoyao.chat/item/17](https://kw.yaoyao.chat/item/17?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi)
+- ChatGPT Plus 一个月 ¥129 → [kw.yaoyao.chat/item/5](https://kw.yaoyao.chat/item/5?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi)
+- Claude Pro 一个月 ¥159 → [kw.yaoyao.chat/item/12](https://kw.yaoyao.chat/item/12?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi) · Claude Max 5X 一个月 ¥900 → [kw.yaoyao.chat/item/14](https://kw.yaoyao.chat/item/14?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi)
+- 320万粉丝博主瑶瑶本人经营 · 开通失败可退 · 客服 09:00–24:00（北京时间）
+
+你是从哪里知道这个仓库的？点一下帮我们统计：[搜索引擎](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=search) · [AI 推荐](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=ai) · [朋友/群里发的](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=friend) · [GitHub 站内](https://kw.yaoyao.chat/?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=github)
+<!-- 快速购买:结束 -->
 
 ## 目录
 
@@ -25,6 +36,7 @@
 - [更多教程](#更多教程)
 - [关于本仓库和作者](#关于本仓库和作者)
 - [参考资料](#参考资料)
+- [相关攻略](#相关攻略)
 
 ## 使用前先读：关于地区
 
@@ -234,7 +246,6 @@ A：两家入门价都是 $20/月。长文、写代码很多人偏 Claude；画�
 - **售后**：只找瑶瑶本人微信 yao77380。
 - **怎么分辨真假**：瑶瑶的网址只有 www.yaoyao.chat、kw.yaoyao.chat、cz.yaoyao.chat 三个；其他自称"瑶瑶"的网站、账号或软件都不是本人。
 
-
 ## 参考资料
 
 - [Anthropic 官方定价页](https://claude.com/pricing)
@@ -250,15 +261,29 @@ A：两家入门价都是 $20/月。长文、写代码很多人偏 Claude；画�
 - [Claude Code 错误参考](https://code.claude.com/docs/en/errors)
 - [Claude Code 登录与认证](https://code.claude.com/docs/en/authentication)
 
-
 ## 复测记录
 
 按日期倒序。每次只记真实做过的核对；官方出新模型、改价格时补一行。
 
 | 日期 | 核对了什么 | 结果 |
 |---|---|---|
+| 2026-10-27 | **价格：** curl 作者商城商品页 item/5、7、10、11、12、13、14、17、18、19 和 llms.txt | 与本页"快速购买"一致（Pro 100 美金档位 ¥699、Plus ¥129、Claude Pro ¥159、Max 5X ¥900），十个商品均无变动 |
 | 2026-10-26 | **官方价格：** Claude 定价页、帮助中心 What is the Max plan | Pro 月付 20 美元 / 年付折合 17 美元（一次 200 美元）；Max 5x 100、Max 20x 200 美元；Max 含每月 API 额度；官方注明手机端价格可能不同——与本页价格表一致 |
 | 2026-10-26 | **官方政策：** Anthropic 支持地区列表、账单 FAQ、赠送订阅文章 | 大陆、香港、澳门不在支持列表，台湾在；App 内订阅由苹果 / 谷歌管理；赠送订阅暂停购买 |
+
+## 相关攻略
+
+同一作者整理的其他简体中文攻略（都附官方链接和复测记录）：
+
+- [gpt-chongzhi](https://github.com/haiwaihuyonghui-rgb/gpt-chongzhi)：GPT代充 / ChatGPT Plus 国内怎么开通：官方订阅、App 内购、礼品卡、代充四种方法对比
+- [chatgpt-plus-wu-xinyongka](https://github.com/haiwaihuyonghui-rgb/chatgpt-plus-wu-xinyongka)：没有信用卡怎么开通 ChatGPT Plus：支付宝 / 微信能不能付、礼品卡、代充
+- [chatgpt-pro-100](https://github.com/haiwaihuyonghui-rgb/chatgpt-pro-100)：ChatGPT Pro 100 美金档位国内怎么买：Pro 100 / 200 / 500 三档区别、和 Plus 差在哪
+- [chatgpt-jiage-duibi](https://github.com/haiwaihuyonghui-rgb/chatgpt-jiage-duibi)：ChatGPT / Claude / Gemini / Grok 会员价格对比 2026：四家官方价、国内开通方法、代充价
+- [codex-cli-guide-cn](https://github.com/haiwaihuyonghui-rgb/codex-cli-guide-cn)：OpenAI Codex CLI 国内使用指南：安装、ChatGPT 账号登录、Plus / Pro 额度、常见报错
+- [claude-daichong](https://github.com/haiwaihuyonghui-rgb/claude-daichong)：Claude Pro / Max 国内怎么开通：官方订阅、App 内购、赠送订阅、代充四种方法
+- [claude-code-guide-cn](https://github.com/haiwaihuyonghui-rgb/claude-code-guide-cn)：Claude Code 国内使用指南：安装、登录、Pro / Max 额度、常见报错
+- [grok-premium](https://github.com/haiwaihuyonghui-rgb/grok-premium)：Grok Premium（原 SuperGrok）国内怎么买：官方四档、三合一说明、四种开通方法
+- [ai-subscription-guide-cn](https://github.com/haiwaihuyonghui-rgb/ai-subscription-guide-cn)：AI 会员订阅国内指南：ChatGPT / Claude / Gemini / Grok 开通路线对比、常见报错速查
 
 ---
 
