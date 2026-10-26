@@ -1,5 +1,7 @@
 # Claude 充值平台怎么选？国内充值 Claude Pro / Max 指南（2026 年 10 月更新）
 
+> 最后更新：2026-10-26 · 去掉指向"代充对比表"的链接（不点名其他平台），判断方法改链到 GPT代充怎么选。
+
 这是一份面向中文用户的 Claude 付费会员说明：Pro、Max 5x、Max 20x 的官方美元价和区别，国内为什么直接付不了款，充值平台（代充）怎么挑，以及"升级后还是显示 Free Plan"、额度用完、Claude Code 登录计费不对等问题的排查，报错部分按 Anthropic 官方帮助中心和 Claude Code 官方文档整理并附链接。作者：瑶瑶ai训练师；更新于 2026-10-17。本仓库是非官方整理，与 Anthropic 没有隶属关系，文中品牌名仅用于说明。
 
 **直接回答：** Claude 官网只接受支持地区发行的信用卡 / 借记卡付款，国内银行卡、支付宝直接付不了。没有海外卡的人，常见做法是"代充"（订阅代付）：由卖家替你付款，把 Claude Pro 或 Max 订阅开到你自己的账号上。
@@ -80,7 +82,7 @@ Anthropic（Claude 的公司）官方公布了支持的国家和地区列表（[
 5. **掉订阅管不管。** 问清有没有质保、覆盖多久、怎么补。
 6. **售后找谁。** 有没有能联系到的真人，平台背后是谁，域名能不能在别处核实。
 
-这 6 个问题对 ChatGPT 代充同样适用，逐项判断方法见 [代充怎么选（对比页）](https://kw.yaoyao.chat/guide/daichong-duibi.html)。
+这 6 个问题对 ChatGPT 代充同样适用，逐项判断方法见 [GPT代充怎么选](https://kw.yaoyao.chat/guide/gpt-daichong.html?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi)。
 
 ## 报错 / 常见问题大全
 
@@ -224,7 +226,7 @@ A：两家入门价都是 $20/月。长文、写代码很多人偏 Claude；画�
 
 - **商城**：[kw.yaoyao.chat](https://kw.yaoyao.chat/)（瑶瑶ai训练师 · AI会员充值）；官网 [www.yaoyao.chat](https://www.yaoyao.chat/)。
 - **能买什么**：ChatGPT Plus（一个月卡密自助开通，1～3 分钟到账；十二个月人工开通）、ChatGPT Pro、Claude Pro / Max、Gemini Pro、Grok 会员。都是充到你自己的账号，不卖成品号、不拼车。
-- **价格**：以商城页面为准。各档价格和官方价对比见 [ChatGPT Plus 多少钱一个月](https://kw.yaoyao.chat/guide/chatgpt-plus-price.html)、[Claude 会员多少钱](https://kw.yaoyao.chat/guide/claude-price.html)、[代充怎么选（对比表）](https://kw.yaoyao.chat/guide/daichong-duibi.html)。
+- **价格**：以商城页面为准。各档价格和官方价对比见 [ChatGPT Plus 多少钱一个月](https://kw.yaoyao.chat/guide/chatgpt-plus-price.html)、[Claude 会员多少钱](https://kw.yaoyao.chat/guide/claude-price.html)。
 - **质保**（全部商品通用，原文见 [售后与质保规则](https://kw.yaoyao.chat/guide/shouhou-zhibao.html)）：
   1. **没开通成功**：卡密不消耗、自动退回，可以重新提交；不想再试的，联系微信退款。
   2. **开通成功后掉会员**（订阅被撤销、账号变回 Free）：在这一期会员有效期内，凭订单号和截图联系微信，再补一个月，补到同一个账号。
