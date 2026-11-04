@@ -51,16 +51,16 @@ Claude 的会员认的是账号背后的"组织"，不是登录邮箱。Anthropi
 
 ## 从下单到到账：4 步，平均 2 分钟
 
-1. **准备账号**：账号能正常登录，页面上没有没处理完的验证或警告，而且眼下还是免费版，不是 Pro、Max 或 Ultra 会员。还没账号的，先去 claude.ai 注册好。
+1. **准备账号**：账号能正常登录，页面上没有没处理完的验证或警告，而且眼下还是免费版，不是 Pro、Max 或 Ultra 会员。还没账号的，先去 claude.ai 注册好（[国内怎么注册 Claude 账号](https://kw.yaoyao.chat/guide/zhuce-zhanghao.html?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=guide)）。
 2. **下单付款**：在下单页选好档位，人民币付款，付款方式以下单页显示为准。
 3. **填组织 ID**：付完款就在订单页填组织 ID 提交，不用先加企业微信。
 4. **等到账，再核对**：平均 2 分钟到账，这期间别重复下单。到账后网页端登出再登入，从头像菜单里看套餐名有没有变成 Pro、Max 或 Ultra；手机 App 也登出重登一次。
 
-档位就说一句：头一回买就开 Pro，跑一个月看看会不会老碰上限；每天都开着 Claude Code、Pro 常在 5 小时窗口里见底的，再换 [Claude Max代充（¥900）](https://kw.yaoyao.chat/item/12?d=max5x&utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=mid)；同一个下单页还有 Ultra（¥1,800）。官方定价页现在的说法是：Max 不论按 5 小时还是按周算，都是 Pro 的 5 倍；Ultra 按周算是 Pro 的 10 倍，账号通过认证后不设 5 小时上限。要是 Pro 还在用着、半路就想换 Max，这个号店里加不上去，得拿一个不是会员的号另开。
+档位就说一句：头一回买就开 Pro，跑一个月看看会不会老碰上限；每天都开着 Claude Code、Pro 常在 5 小时窗口里见底的，再换 [Claude Max代充（¥900）](https://kw.yaoyao.chat/item/12?d=max5x&utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=mid)；同一个下单页还有 Ultra（¥1,800），三档区别见 [Claude Max 怎么开通](https://kw.yaoyao.chat/guide/claude-max.html?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=guide)。官方定价页现在的说法是：Max 不论按 5 小时还是按周算，都是 Pro 的 5 倍；Ultra 按周算是 Pro 的 10 倍，账号通过认证后不设 5 小时上限。要是 Pro 还在用着、半路就想换 Max，这个号店里加不上去，得拿一个不是会员的号另开。
 
 ## Claude充值后还显示 Free plan：按顺序查 5 处
 
-付了钱还是 Free，先别慌。Anthropic 账单 FAQ 只给了两个原因：登录的邮箱不是开会员的那个；付款失败，账号被降了级。代充不走你的卡，第二条基本碰不到，重点查账号本身：
+付了钱还是 Free，先别慌（另见 [Claude 充值了还显示 Free Plan 怎么办](https://kw.yaoyao.chat/guide/claude-free-plan.html?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=guide)）。Anthropic 账单 FAQ 只给了两个原因：登录的邮箱不是开会员的那个；付款失败，账号被降了级。代充不走你的卡，第二条基本碰不到，重点查账号本身：
 
 | 第几步 | 查哪里 | 发现问题怎么办 |
 |---|---|---|
@@ -73,9 +73,9 @@ Claude 的会员认的是账号背后的"组织"，不是登录邮箱。Anthropi
 想确认会员真的到了，看四处：
 
 - **设置 → 账单（Billing）**：套餐一栏写的是 Pro plan、Max plan 或 Ultra plan。
-- **设置 → 用量（Usage）**：帮助中心写明，付费套餐能在这里看到进度条，一条是 5 小时会话、一条是每周上限，旁边标着重置时间。买的是 Ultra、只看到每周那一条，不是没开好：官方说认证过的 Ultra 账号本来就没有 5 小时那条。
+- **设置 → 用量（Usage）**：帮助中心写明，付费套餐能在这里看到进度条，一条是 5 小时会话、一条是每周上限，旁边标着重置时间。买的是 Ultra、只看到每周那一条，不是没开好：官方说认证过的 Ultra 账号本来就没有 5 小时那条（[Claude Pro 有多少额度](https://kw.yaoyao.chat/guide/claude-pro-edu.html?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=guide)）。
 - **模型列表**：对话框的模型下拉里能选 Opus 了。官方定价页写明免费版用不了 Opus。
-- **Claude Code**：终端里输入 `/status`，看登录的是不是你的 Claude 账号；不是就输入 `/login`，换成 Claude 账号登录。系统环境变量里有 `ANTHROPIC_API_KEY` 的，官方说 Claude Code 会先用这个 Key、按 API 收费，用不上就删掉，重开终端。
+- **Claude Code**：终端里输入 `/status`，看登录的是不是你的 Claude 账号；不是就输入 `/login`，换成 Claude 账号登录。系统环境变量里有 `ANTHROPIC_API_KEY` 的，官方说 Claude Code 会先用这个 Key、按 API 收费，用不上就删掉，重开终端（[Claude Code 怎么收费](https://kw.yaoyao.chat/guide/claude-code.html?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=guide)）。
 
 会员开好以后，偶尔会跳出英文提示。下面三条讲的是额度和服务器，跟会员开没开成无关：
 
@@ -84,6 +84,8 @@ Claude 的会员认的是账号背后的"组织"，不是登录邮箱。Anthropi
 | `5-hour limit reached - resets [时间]` | 这 5 小时的额度用完了（认证过的 Ultra 账号不会出这条） | 等到提示里的时间；老是撞上就考虑升一档 |
 | `You've reached your weekly limit` | 本周上限用完了 | 提示后半句写着哪天几点重置 |
 | `Due to unexpected capacity constraints…` | 官方说这不是故障，是全站同时用的人太多 | 隔几分钟再发 |
+
+三条提示的原文和官方解释见 [Troubleshoot Claude error messages](https://support.claude.com/en/articles/12466728-troubleshoot-claude-error-messages)。
 
 买的是 Max 或 Ultra、显示的却是 Pro，也是先登出重登、核对邮箱。几步都做完还不对，把登录邮箱和订单号发到瑶瑶ai训练师的企业微信（`kw.yaoyao.chat/wecom`），全天 24 小时，只认瑶瑶本人这一个企业微信。
 
@@ -102,18 +104,18 @@ Claude 的会员认的是账号背后的"组织"，不是登录邮箱。Anthropi
 
 封号为什么不保？帮助中心那篇《Safeguards warnings and appeals》写了三种会被停用的情况：一再违反使用政策；账号是在不受支持的地方注册的；违反服务条款。官方列的这三种里没有单独写"钱是谁付的"，但服务条款要求账单信息完整准确，最终以官方解释为准；实际风险主要看在哪注册、在哪用、拿来干什么。
 
-真碰上停用，也别乱试，照官方给的路子走：
+真碰上停用（[Claude 封号了怎么办](https://kw.yaoyao.chat/guide/claude-fenghao.html?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=guide)），也别乱试，照官方给的路子走：
 
 1. 先翻注册邮箱，看 Anthropic 发来的通知。
 2. 拿被停用的账号登进 claude.ai，在页面上填申诉表。官方特别说明，不登录看不到这张表。
 3. 账号本身没事、只是所在组织被暂停的，在受限页面里对应的组织上点 Request a review。
 4. 等结果的时候，别急着注册新号，也别换着渠道一遍遍提交。在瑶瑶这里开的，把订单号和停用邮件截图发到企业微信，瑶瑶陪你把申诉走完。
 
-平时想少出事，记住三个习惯（常见的稳妥做法，不是官方条文）：登录的网络地区固定，别一天跨好几个国家；一人一号，消费者条款本来就不许把账号给别人用；别拿会员账号接"网页转 API"的第三方工具，也别用脚本批量刷网页版。
+平时想少出事，记住三个习惯（常见的稳妥做法，不是官方条文）：登录的网络地区固定，别一天跨好几个国家；一人一号，消费者条款本来就不许把账号给别人用；别拿会员账号接"网页转 API"的第三方工具，也别用脚本批量刷网页版（详见 [Claude 怎么用才不被封](https://kw.yaoyao.chat/guide/claude-fangfeng.html?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=guide)）。
 
 ## 判断 Claude充值平台靠不靠谱：付钱前问 6 件事
 
-不管在哪家买，掏钱之前把这 6 个问题挨个问一遍，答不上来的先放一放：
+不管在哪家买，掏钱之前把这 6 个问题挨个问一遍，答不上来的先放一放（另见 [Claude 代充靠谱吗](https://kw.yaoyao.chat/guide/claude-daichong-kaopu.html?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=guide)）：
 
 1. **开在谁的账号上？** 只认开到你自己账号里的。塞给你一个现成账号、或者让你用网站账号的，都不叫代充。
 2. **要你交出什么？** 一个能定位账号的编号就够了，比如组织 ID。张口要密码、验证码、登录 Cookie、证件照的，别买。
@@ -144,7 +146,7 @@ Claude 的会员认的是账号背后的"组织"，不是登录邮箱。Anthropi
 
 ### claude 充值能用支付宝吗？
 
-官网网页只收信用卡和借记卡，不收支付宝。走代充，就是你用人民币付给卖家，再由卖家替你交会员费；瑶瑶这里可以用支付宝付，具体以下单页显示的付款方式为准。
+官网网页只收信用卡和借记卡，不收支付宝（官方 [Paid plan billing FAQs](https://support.claude.com/en/articles/8325618-paid-plan-billing-faqs)）。走代充，就是你用人民币付给卖家，再由卖家替你交会员费；瑶瑶这里可以用支付宝付，具体以下单页显示的付款方式为准；几条路线对比见 [Claude Pro 国内怎么买](https://kw.yaoyao.chat/guide/claude-luxian-duibi.html?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=guide)。
 
 ### Claude充值后想退款，找 Anthropic 行不行？
 
@@ -160,11 +162,11 @@ Claude 的会员认的是账号背后的"组织"，不是登录邮箱。Anthropi
 
 ### 代充开的 Claude 会被封吗？
 
-官方写的停用情况是一再违规、在不受支持的地方注册账号、违反服务条款，没有单独写"钱是谁付的"，但条款要求账单信息完整准确，以官方解释为准。风险主要看地区、网络和是不是多人共用。封号不在质保范围，瑶瑶协助走官方申诉。
+官方写的停用情况（[Safeguards warnings and appeals](https://support.claude.com/en/articles/8241253)）是一再违规、在不受支持的地方注册账号、违反服务条款，没有单独写"钱是谁付的"，但条款要求账单信息完整准确，以官方解释为准。风险主要看地区、网络和是不是多人共用。封号不在质保范围，瑶瑶协助走官方申诉。
 
 ### 能开发票吗？
 
-可开发票，也能对公转账。下单后把订单号和发票抬头发到企业微信，票种开票前再确认。
+可开发票，也能对公转账。下单后把订单号和发票抬头发到企业微信，票种开票前再确认（[代充能开发票吗](https://kw.yaoyao.chat/guide/fapiao.html?utm_source=github&utm_medium=readme&utm_campaign=claude-chongzhi&utm_content=guide)）。
 
 ### 我已经是 Claude Pro 了，还能在店里续吗？
 
